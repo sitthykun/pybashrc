@@ -1,11 +1,20 @@
 # py-bashrc
 Environment development for python developer with bash or zsh profile\
-by copying the content inside env.bashrc to ~/.bashrc or ~/.bash_profile or ~/.zshrc
+by copying the content inside env.bashrc to ~/.bashrc or ~/.bash_profile or ~/.zshrc or others\
+
+Copy these lines to your current theme base on your environment installation.
 ```
+alias python3="python3.10"
 alias penv="source venv/bin/activate"
-alias pvev="python3.10 -m venv venv"
+alias pvev="python3 -m venv venv"
 alias peni="pvev;penv;"
 ```
+
+or just run this command:
+```
+$ python3.10 generate.py
+```
+
 Then try activating the update by use below command
 ```
 $ source ~/.bashrc
@@ -24,8 +33,10 @@ $ penv
 This command is the same as "source venv/bin/activate"
 
 
-or\
+or
 ## 3. Combining both of 1 and 2
 ```
 $ peni
 ```
+
+Any way, 'env.json' is everything that stored all.
