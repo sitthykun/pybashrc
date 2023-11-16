@@ -5,9 +5,10 @@ by copying the content inside env.bashrc to ~/.bashrc or ~/.bash_profile or ~/.z
 Copy these lines to your current theme base on your environment installation.
 ```
 alias python3="python3.10"
-alias penv="source venv/bin/activate"
-alias pvev="python3 -m venv venv"
-alias peni="pvev;penv;"
+alias pya="source venv/bin/activate"
+alias pyd="deactivate"
+alias pyc="python3 -m venv venv"
+alias pye="pyc;pya;"
 ```
 
 or just run this command:
