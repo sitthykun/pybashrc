@@ -1,8 +1,8 @@
 ## put it in bashrc
 alias python3="python3.12"
 alias pya="source venv/bin/activate"
-alias pyd="deactivate;rm -rf venv;"
-alias pyc="python3 -m venv venv;"
+alias pyd="deactivate;rm -rf .venv;"
+alias pyc="python3 -m venv .venv;"
 alias pyr="pip install --upgrade pip;pip install -r requirements.txt;"
 alias pye="pyc;pya;"
 alias pyp="pip install --upgrade pip;pip install build;pip install twine;"
