@@ -6,8 +6,8 @@ Copy these lines to your current theme base on your environment installation.
 ```
 alias python3="python3.12"
 alias pya="source venv/bin/activate"
-alias pyd="deactivate;rm -rf venv;"
-alias pyc="python3 -m venv venv;"
+alias pyd="deactivate;rm -rf .venv;"
+alias pyc="python3 -m venv .venv;"
 alias pyr="pip install --upgrade pip;pip install -r requirements.txt;"
 alias pye="pyc;pya;"
 # pypi
