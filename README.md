@@ -30,13 +30,13 @@ $ source ~/.bashrc
 ```
 $ pyc
 ```
-Will run this "python3.10 -m venv venv"
+Will run this "python3.10 -m venv .venv"
 
 ## 2. Activating local environment
 ```
 $ pya
 ```
-This command is the same as "source venv/bin/activate"
+This command is the same as "source .venv/bin/activate"
 
 
 or
