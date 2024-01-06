@@ -1,7 +1,6 @@
 # py-bashrc
 Environment development for python developer with bash or zsh profile\
 by copying the content inside env.bashrc to ~/.bashrc or ~/.bash_profile or ~/.zshrc or others\
-
 Copy these lines to your current theme base on your environment installation.
 ```
 alias python3="python3.12"
