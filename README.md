@@ -6,7 +6,7 @@ Copy these lines to your current theme base on your environment installation.
 ```
 #-------------------------------#
 # auth: masakokh                #
-# note: bashrc's avarialbles    #
+# note: python's dev avarialbles#
 # year: 2023                    #
 # version: 1.0.0                #
 #-------------------------------#

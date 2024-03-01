@@ -1,6 +1,6 @@
 #-------------------------------#
 # auth: masakokh                #
-# note: bashrc's avarialbles    #
+# note: python's dev avarialbles#
 # year: 2023                    #
 # version: 1.0.0                #
 #-------------------------------#
