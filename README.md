@@ -1,8 +1,15 @@
 # py-bashrc
+## version 0.1.0
 Environment development for python developer with bash or zsh profile\
 by copying the content inside env.bashrc to ~/.bashrc or ~/.bash_profile or ~/.zshrc or others\
 Copy these lines to your current theme base on your environment installation.
 ```
+#-------------------------------#
+# auth: masakokh                #
+# note: bashrc's avarialbles    #
+# year: 2023                    #
+# version: 1.0.0                #
+#-------------------------------#
 alias pya="source .venv/bin/activate"
 alias pyd="deactivate;rm -rf .venv;"
 alias pyc="python3 -m venv .venv;"
