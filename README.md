@@ -61,6 +61,8 @@ $ pye
 
 or
 ## 4. Run a startup file by default as main.py
+Some of the editors, and projects create a default file as a startup file.
+$ python main.py
 ```
 $ pyr
 ```
